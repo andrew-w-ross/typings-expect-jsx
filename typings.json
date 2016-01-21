@@ -1,0 +1,13 @@
+{
+  "name": "expect-jsx",
+  "ambient": true,
+  "author": "Andrew Ross",
+  "description": "Typings for the expect-jsx library https://github.com/algolia/expect-jsx",
+  "dependencies": {},
+  "devDependencies": {},
+  "ambientDependencies": {
+    "expect": "github:andrew-w-ross/typings-expect",
+    "react": "github:DefinitelyTyped/DefinitelyTyped/react/react.d.ts#8b2be7dbb22fb9042798c717d10a86a833643365"
+  },
+  "main": "expect-jsx.d.ts"
+}

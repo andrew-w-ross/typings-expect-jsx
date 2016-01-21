@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noLib": false,
+        "noEmit": true,
+		"jsx":"react"
+    },
+	"files":[
+		"test.tsx"
+	]
+}
