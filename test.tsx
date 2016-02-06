@@ -17,5 +17,8 @@ class TestComponent extends React.Component<{ showMessage: boolean }, {}>{
 	}
 }
 
+const StatelessElem = ({message = "Hello"}) => <h1>{message}</h1>;
+
+expect(<StatelessElem />).toIncludeJSX(<h1>Hello</h1>);
 expect(<TestComponent showMessage={true} />).toIncludeJSX(<h1>Hello</h1>);
 expect(<TestComponent showMessage={false} />).toIncludeJSX(<h2>World</h2>);
